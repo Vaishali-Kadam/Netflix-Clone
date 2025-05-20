@@ -28,7 +28,7 @@ A simple Netflix homepage clone built using only **HTML** and **CSS**. This proj
 
 1. Clone the repository
 
-   git clone https://github.com/your-username/netflix-clone.git
+   git clone https://github.com/Vaishali-Kadam/Netflix-Clone.git
   
 2. Open `index.html` in your browser
    OR
