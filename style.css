@@ -1,3 +1,7 @@
+main {
+    height: 100vh;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -6,9 +10,12 @@ body {
     overflow-x: hidden;
     overflow-y: scroll;
 }
+
 body::-webkit-scrollbar {
-    display: none; /* Hides the scrollbar */
+    display: none;
+    /* Hides the scrollbar */
 }
+
 body .herocontainer {
     margin: 0;
     padding: 0;
@@ -140,7 +147,7 @@ img {
 }
 
 section {
-    display:flex;
+    display: flex;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -162,9 +169,11 @@ section {
     width: 100vw;
     overflow-x: scroll;
 }
+
 .container1::-webkit-scrollbar {
     display: none;
-  }
+}
+
 .container1 div {
     height: 300px;
     width: 200px;
@@ -195,6 +204,7 @@ section {
     width: 100%;
     position: relative;
 }
+
 .section2 h1 {
     color: white;
     font-size: xx-large;
@@ -203,13 +213,16 @@ section {
     padding-left: 40px;
     margin-bottom: 0px;
 }
-.container2 h1{
+
+.container2 h1 {
     font-size: xx-large;
 }
-.container2 h1{
-    margin-top:50px;
+
+.container2 h1 {
+    margin-top: 50px;
     margin-bottom: 0px;
 }
+
 .section2::before {
     content: "";
     background-image: url(images/netflixbg2.jpg);
@@ -228,25 +241,30 @@ section {
     bottom: 0;
     right: 0;
 }
-.section2{
+
+.section2 {
     background-color: black;
     height: 100%;
     z-index: 1;
 }
+
 .container1 {
     position: relative;
     z-index: 2;
     padding: 20px;
     height: auto;
 }
-.section2 h1{
+
+.section2 h1 {
     font-size: xx-large;
 }
+
 .littlecontainer {
     display: flex;
     flex-direction: row;
 }
-.boxes2{
+
+.boxes2 {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
@@ -258,9 +276,11 @@ section {
     position: relative;
     z-index: 2;
     font: 1em sans-serif;
-    font-weight: 500;}
-.boxes2::after{
-    content:"";
+    font-weight: 500;
+}
+
+.boxes2::after {
+    content: "";
     position: absolute;
     background-color: rgba(110, 103, 103, 0.5);
     top: 0;
@@ -274,38 +294,44 @@ section {
     left: 0;
     border-radius: 15px;
 }
-.section3{
+
+.section3 {
     height: 100%;
     width: 100%;
     background-color: black;
     color: white;
 }
-.section3 h1{
+
+.section3 h1 {
     font-size: xx-large;
-    margin-left:37px;
+    margin-left: 37px;
     font-family: sans-serif;
 }
-.faqs{
+
+.faqs {
     display: flex;
     flex-direction: column;
 }
-.faq{
-   /* margin: 20px; */
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   margin-left: 100px;
-   margin-bottom:5px; ;
-   padding: 20px;
-   width: 70vw;
-   border-radius: 15px;
-   position: relative;
-   z-index: 1;
-   font-size: medium;
-   font-weight: 50;
+
+.faq {
+    /* margin: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 5px;
+    ;
+    padding: 20px;
+    width: 70vw;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+    font-size: medium;
+    font-weight: 50;
 }
-.faq::after{
-    content:"";
+
+.faq::after {
+    content: "";
     position: absolute;
     background-color: rgba(110, 103, 103, 0.5);
     top: 0;
@@ -317,28 +343,33 @@ section {
     z-index: -1;
     border-radius: 15px;
 }
-.plus{
+
+.plus {
     font-weight: bold;
     display: flex;
     justify-content: end;
     font-size: xx-large;
     cursor: pointer;
 }
-.section4{
+
+.section4 {
     height: 100%;
     width: 100%;
     background-color: black;
     color: #f0f0f0;
 }
-.footer-email{
+
+.footer-email {
     margin-left: 500px;
     margin-top: 50px;
 }
-.sec4 p{
+
+.sec4 p {
     display: flex;
     font-size: larger;
 }
-.membership a{
+
+.membership a {
     border: 2px solid rgb(228, 102, 102);
     margin: 20px;
     padding: 5px;
@@ -348,50 +379,176 @@ section {
     font-size: x-large;
     text-decoration: none;
 }
-.section5{
+
+.section5 {
     height: 100%;
     width: 100%;
     background-color: black;
     color: #fff;
 }
-.footer p{
+
+.footer p {
     display: flex;
     font-size: medium;
     margin-left: 220px;
     margin-top: 50px;
 }
-.footerlinks{
+
+.footerlinks {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-left: 150px;
 }
-.links{
+
+.links {
     display: flex;
     flex-direction: column;
     margin-left: 70px;
     justify-content: center;
     font-size: medium;
 }
-.links a{
+
+.links a {
     margin-bottom: 15px;
     color: #dcd5d5;
     font-size: medium;
 }
-.language{
+
+.language {
     display: flex;
     flex-direction: row;
-    margin-left:220px;
+    margin-left: 220px;
     margin-top: 30px;
 }
-.language-dropdown{
+
+.language-dropdown {
     padding: 5px;
     border: 2px solid black;
     border-radius: 5px;
     width: 120px;
 }
-.netflix{
+
+.netflix {
     margin-top: 20px;
     margin-left: 220px;
     margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .body {
+        width: 100vw;
+        height: auto;
+    }
+    /* .dropdown {
+        padding: 1px;
+        width: 100px;
+        height: 25px;
+        font-size: small;
+        border-radius: 4px;
+        background-color: #f0f0f0;
+        margin: 5px;
+    } */
+
+    .navbar {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .signin {
+    height: 12px;
+    font: 0.5em san-serif;
+    padding: 5px;
+    font-size: smaller;
+    font-weight: 100;
+    width: 400px;
+}
+    .homepagetext {
+        font: 1 em sans-serif;
+        font-size: large;
+        justify-content: center;
+        margin-left: 150px;
+        margin-top: 70px;
+    }
+
+    .homepagebuttons a {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .homepagebuttons #email {
+        width: 70%;
+        font-size: smaller;
+        height: 70%;
+    }
+    .section2 h1{
+    font-size: large;
+}
+    .container1 {
+        width: 80vw;
+        height: auto;
+        overflow-x: scroll;
+    }
+
+    .littlecontainer {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: auto;
+    }
+
+    .littlecontainer .boxes2 {
+        height: auto;
+        width: 50vw;
+        font-size: medium;
+        justify-content: center;
+    }
+    .faqs h1{
+    font-size: large;
+}
+    .faq {
+        width: 50vw;
+        justify-content: space-between;
+    }
+
+    .footer-email {
+        margin-left: 100px;
+        width: 50%;
+    }
+    .membership a {
+            margin-top: 15px;
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            font-size: smaller;
+    }
+
+    .membership #email {
+            width: 70%;
+            height: 70%;
+    }
+    .footer p{
+        margin-left: 20%;
+    }
+    
+.footerlinks {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.links{
+    margin-top: 50px;
+}
+.links a{
+    /* margin-left: 10%; */
+    margin-right:100% ;
+}
+.getstarted {
+    border-radius: 5px;
+    padding: 3px;
+    text-decoration: None;
+    font-weight: 100;
+    font-size: smaller;
+}
 }
